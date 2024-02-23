@@ -419,54 +419,54 @@ form .form-content input:valid~span::before {
 
         /* Footer */
 
-.footer {
-    background: #F2F2F2;
-}
-
-.footer-box {
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.footer-box .icon a i {
-    margin-top: 10px;
-    margin-right: 10px;
-    padding: 10px;
-    color: black;
-    background-color: #dcdcdc;
-    border-radius: 50%;
-    text-align: center;
-}
-
-.footer-box .icon a i:hover {
-    background-color: red;
-}
-
-.footer-box h3 {
-    position: relative;
-    bottom: 23px;
-    color: orange;
-}
-
-.footer-box .f-div {
-    padding: 20px;
-    margin: 20px 30px;
-}
-
-.footer-box .f-div h4 {
-    margin-bottom: 5px;
-    font-size: 16px;
-    color: orange;
-}
-
-.footer-box .f-div a {
-    font-size: 16px;
-    color: black;
-}
+        .footer {
+            background: #F2F2F2;
+        }
+        
+        .footer-box {
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        
+        .footer-box .icon a i {
+            margin-top: 10px;
+            margin-right: 10px;
+            padding: 10px;
+            color: black;
+            background-color: #dcdcdc;
+            border-radius: 50%;
+            text-align: center;
+        }
+        
+        .footer-box .icon a i:hover {
+            background-color: red;
+        }
+        
+        .footer-box h3 {
+            position: relative;
+            bottom: 23px;
+            color: orange;
+        }
+        
+        .footer-box .f-div {
+            padding: 20px;
+            margin: 20px 30px;
+        }
+        
+        .footer-box .f-div h4 {
+            margin-bottom: 5px;
+            font-size: 16px;
+            color: orange;
+        }
+        
+        .footer-box .f-div a {
+            font-size: 16px;
+            color: black;
+        }
             /* Responsividade */
 
  @media (max-width: 1100px) {
@@ -611,24 +611,6 @@ form .form-content input:valid~span::before {
             width: 500px;
         }
 
-        .footer-box .icon {
-            width: 100%;
-            margin-top: 10px;
-            text-align: center;
-        }
-    
-        .footer-box .icon h3 {
-            top: 1px;
-        }
-    
-        .footer-box .f-div h4 {
-            font-size: 17px;
-        }
-    
-        .footer-box .f-div a {
-            font-size: 17px;
-        }
-    
         .about-box .about-body {
             max-width: 300px;
         }
@@ -816,3 +798,4 @@ form .form-content input:valid~span::before {
                 font-size: 13px;
             }
         }
+    
