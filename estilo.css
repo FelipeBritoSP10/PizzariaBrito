@@ -245,6 +245,7 @@ button:hover {
     margin: 20px;
 }
 
+
 .menu-box .card-image img {
     width: 230px;
     height: 190px;
@@ -259,6 +260,7 @@ button:hover {
 .menu-box .card-body {
     padding: 20px;
 }
+
 
 .menu-box .card-body i {
     color: orange;
@@ -311,6 +313,7 @@ button:hover {
     font-size: 18px;
     color: red;
 }
+
              /* Contatos */
 .contact {
     display: flex;
@@ -798,4 +801,3 @@ form .form-content input:valid~span::before {
                 font-size: 13px;
             }
         }
-    
