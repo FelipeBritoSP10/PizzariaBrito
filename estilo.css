@@ -91,6 +91,7 @@ img {
     color: orange;
 }
 
+/*Estilo do botão de cancelar*/
 .cancel-purchase {
     background-color: red;
     color: white;
@@ -101,10 +102,11 @@ img {
     font-size: 16px;
 }
 
+/*Botão de cancelar (Hover)*/
 .cancel-purchase:hover {
-    background-color: crimson;
-    transition: 0.3s ease-in-out;
-    transform: translate(5px);
+    background-color: crimson; /*Cor de fundo*/
+    transition: 0.3s ease-in-out; /*Transição curta*/
+    transform: translate(5px);/*Movimentação suave de botão*/
 }
 
             /*Menu de navegação*/
