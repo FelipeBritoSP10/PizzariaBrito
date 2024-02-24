@@ -1,4 +1,4 @@
-                      /*Estilização*/
+             /*Estilização*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 * {
@@ -46,13 +46,65 @@ img {
     padding: 20px;
 }
 
+.cart {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px; /* Ajuste conforme necessário */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2{
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: orange;
+}
+
+.cart h4{
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: black;
+}
+
 .cart-items {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .cart-items li {
     margin-bottom: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+.total {
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    margin-top: 15px;
+}
+
+.cart-items li span {
+    float: right;
+    color: orange;
+}
+
+.cancel-purchase {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.cancel-purchase:hover {
+    background-color: crimson;
+    transition: 0.3s ease-in-out;
+    transform: translate(5px);
 }
 
             /*Menu de navegação*/
