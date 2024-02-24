@@ -1,4 +1,4 @@
-            /*Estilização*/
+                      /*Estilização*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 * {
@@ -38,6 +38,21 @@ img {
 
 .div-header h3 {
     color: orange;
+}
+
+.cart {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-items li {
+    margin-bottom: 10px;
 }
 
             /*Menu de navegação*/
@@ -283,35 +298,19 @@ button:hover {
     margin-right: 10px;
 }
 
-.menu-box .card-body .cash-div {
-    display: flex;
-}
-.menu-box .card-body a {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 7px 20px;
+.card-body button.add-to-cart {
+    margin-top: 10px;
     background-color: orange;
-    color: black;
-    font-size: 15px;
-    font-weight: bold;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
-
-.menu-box .card-body a:hover {
-    background-color: #ff7f00; 
+.card-body button.add-to-cart:hover {
+    background-color: #ff7f00;
     transition: 0.3s ease-in-out;
     transform: translate(5px);
-}
-
-.menu-box .card-body label.discount {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    right: -10px;
-    transform: rotate(30deg);
-    font-weight: bold;
-    font-size: 18px;
-    color: red;
 }
 
              /* Contatos */
