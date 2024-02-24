@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -123,7 +123,7 @@
                <img src="pizzafrango.png">
             </div>
             <div class="card-body">
-            <h4>Pizza de frango catupiry</h4>
+            <h4 class="product-name">Pizza de frango catupiry</h4>
             <label>Catupiry, frango desfiado e orégano.</label>
                     <div class="star">
                         <i class="fa-solid fa-star"></i>
@@ -136,11 +136,6 @@
                         <label class="cash">25.00 R$</label>
                     </div> 
                     <button class="add-to-cart">Comprar</button>
-                    <div class="cart">
-                        <h2>Sua compra</h2>
-                        <ul class="cart-items"></ul>
-                        <h3>Total: R$ <span class="total">0.00</span></h3>
-                    </div>
                 </div>
             </div>
 
@@ -149,7 +144,7 @@
                     <img src="pizzacalabresa.png">
             </div>
             <div class="card-body">
-            <h4>Pizza de calabresa</h4>
+            <h4 class="product-name">Pizza de calabresa</h4>
             <label>Calabresa, cebola, queijo mussarela e azeitonas verdes.</label>
             <div class="star">
                 <i class="fa-solid fa-star"></i>
@@ -169,7 +164,7 @@
                 <img src="pizzamussarela.png">
             </div>
             <div class="card-body">
-                <h4>Pizza de mussarela</h4>
+                <h4 class="product-name">Pizza de mussarela</h4>
                 <label>Mussarela, rodelas de tomate e orégano.</label>
                 <div class="star">
                     <i class="fa-solid fa-star"></i>
@@ -189,7 +184,7 @@
                 <img src="pizzaescarola.png">
             </div>
             <div class="card-body">
-                <h4>Pizza de escarola</h4>
+                <h4 class="product-name">Pizza de escarola</h4>
                 <label>Escarola refogada, mussarela, azeitona verde e orégano.</label>
                 <div class="star">
                     <i class="fa-solid fa-star"></i>
@@ -209,7 +204,7 @@
                 <img src="pizzacombo.jpg">
             </div>
             <div class="card-body">
-                <h4>Pizza combo</h4>
+                <h4 class="product-name">Pizza combo</h4>
                 <label>Combo formado por pizza de pepperoni, coca cola e batata frita.</label>
                 <div class="star">
                     <i class="fa-solid fa-star"></i>
@@ -229,7 +224,7 @@
                 <img src="pizzafrancesa.jpg">
             </div>
             <div class="card-body">
-                <h4>Pizza francesa</h4>
+                <h4 class="product-name">Pizza francesa</h4>
                 <label>Ovos cozidos, bacon, cebola e catupiry.</label>
                 <div class="star">
                     <i class="fa-solid fa-star"></i>
@@ -256,7 +251,7 @@
                <img src="coca.png">
             </div>
             <div class="card-body">
-            <h4>Coca Cola 350ML</h4>
+            <h4 class="product-name">Coca Cola 350ML</h4>
             <label>Bebida deliciosa</label>
                     <div class="star">
                         <i class="fa-solid fa-star"></i>
@@ -276,7 +271,7 @@
                     <img src="pepsi.png">
                 </div>
                 <div class="card-body">
-                    <h4>Pepsi 350ML</h4>
+                    <h4 class="product-name">Pepsi 350ML</h4>
                     <label>Bebida gelada</label>
                     <div class="star">
                         <i class="fa-solid fa-star"></i>
@@ -297,7 +292,7 @@
                     <img src="sucolaranja.png">
                 </div>
                 <div class="card-body">
-                    <h4>Suco de laranja</h4>
+                    <h4 class="product-name">Suco de laranja</h4>
                     <label>Bebida refrescante</label>
                     <div class="star">
                         <i class="fa-solid fa-star"></i>
@@ -318,7 +313,7 @@
                     <img src="sucomorango.png">
                 </div>
                 <div class="card-body">
-                    <h4>Suco de morango</h4>
+                    <h4 class="product-name">Suco de morango</h4>
                     <label>Bebida saudável</label>
                     <div class="star">
                         <i class="fa-solid fa-star"></i>
@@ -332,6 +327,15 @@
                     </div>
                     <button class="add-to-cart">Comprar</button>
                 </div>
+            </div>
+
+            <div class="cart">
+                <h2>Sua compra <i class="fas fa-shopping-cart"></i></h2></h2>
+                <ul class="cart-items"></ul>
+                <h4>Total: R$ <span class="total">0.00</span></h4>
+                
+                <!--Botão de cancelar compra-->
+                <button class="cancel-purchase">Cancelar Compra</button>
             </div>
 
 
@@ -380,4 +384,3 @@
 <script src="moviment.js"></script>
 </body>
 </html>
-
