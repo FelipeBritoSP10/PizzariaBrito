@@ -1,4 +1,4 @@
-             /*Estilização*/
+                        /*Estilização*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 * {
@@ -91,7 +91,8 @@ img {
     color: orange;
 }
 
-/*Estilo do botão de cancelar*/
+  
+ /*Estilo do botão de cancelar*/
 .cancel-purchase {
     background-color: red;
     color: white;
@@ -102,14 +103,36 @@ img {
     font-size: 16px;
 }
 
-/*Botão de cancelar (Hover)*/
 .cancel-purchase:hover {
-    background-color: crimson; /*Cor de fundo*/
-    transition: 0.3s ease-in-out; /*Transição curta*/
-    transform: translate(5px);/*Movimentação suave de botão*/
+    background-color: crimson;
+    transition: 0.3s ease-in-out; 
+    transform: translate(5px);
 }
 
-            /*Menu de navegação*/
+/*Estilo do botão de finalizar compra*/
+.finalize-purchase {
+    background-color: green;
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none; 
+}
+
+.finalize-purchase:hover {
+    background-color: green;
+    transition: 0.3s ease-in-out; 
+    transform: translate(5px);
+}
+
+/*Estilo do link do botão finalizar compra*/
+a {
+    color: white; 
+    text-decoration: none; 
+}
+
 .nav-container {
     width: 100%;
     height: 110px;
