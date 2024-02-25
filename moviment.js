@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function() {
     const addToCartButtons = document.querySelectorAll('.add-to-cart'); //Adicionar as pizzas e bebidas no carrinho//
     const cartItemsList = document.querySelector('.cart-items');  //Apresentar pizzas e bebidas no carrinho//
@@ -26,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             listItem.appendChild(itemDescription);
             cartItemsList.appendChild(listItem);
         });
-    });  //Nestas linhas de códigos estamos adicionando no carrinho as pizzas e bebidas completas (imagem e descrição) à lista de itens do carrinho//
+    });  //Nestas linhas de códigos estamos adicionando as pizzas e bebidas completas (imagem e descrição) à lista de itens do carrinho//
 
     cancelPurchaseButton.addEventListener('click', function() {
         cartItemsList.innerHTML = ''; 
